@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "War_Library")(type "KiCad")(uri "/home/wardaddy/Desktop/WarBoard/War_Library.pretty")(options "")(descr ""))
+)
