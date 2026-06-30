@@ -3825,6 +3825,16 @@
 	)
 	(wire
 		(pts
+			(xy -591.82 67.31) (xy -589.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bcbc4d-57f2-4e4c-8eb3-ec8b975f3126")
+	)
+	(wire
+		(pts
 			(xy -435.61 48.26) (xy -427.99 48.26)
 		)
 		(stroke
@@ -3852,6 +3862,16 @@
 			(type default)
 		)
 		(uuid "3f877d48-8fe0-490c-b2e1-e4767da0bf91")
+	)
+	(wire
+		(pts
+			(xy -579.12 71.12) (xy -575.31 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a8e4f4-8f26-4c20-8516-122d6d11fb3a")
 	)
 	(wire
 		(pts
@@ -3885,7 +3905,7 @@
 	)
 	(wire
 		(pts
-			(xy -613.41 74.93) (xy -595.63 74.93)
+			(xy -613.41 67.31) (xy -601.98 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3905,7 +3925,7 @@
 	)
 	(wire
 		(pts
-			(xy -613.41 74.93) (xy -613.41 81.28)
+			(xy -613.41 67.31) (xy -613.41 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3985,16 +4005,6 @@
 	)
 	(wire
 		(pts
-			(xy -585.47 74.93) (xy -575.31 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87b0d52a-2ff5-44cc-900d-ec726283f91b")
-	)
-	(wire
-		(pts
 			(xy -502.92 11.43) (xy -502.92 5.08)
 		)
 		(stroke
@@ -4012,16 +4022,6 @@
 			(type default)
 		)
 		(uuid "a9dadc6b-0495-48ca-8391-f265d92f9861")
-	)
-	(wire
-		(pts
-			(xy -575.31 74.93) (xy -575.31 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa9684e1-cb2a-425e-bd35-9fbda556cc9e")
 	)
 	(wire
 		(pts
@@ -4072,6 +4072,16 @@
 			(type default)
 		)
 		(uuid "cbf455db-9822-4580-ba4f-b679592a748a")
+	)
+	(wire
+		(pts
+			(xy -589.28 67.31) (xy -589.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7d5656-f1ee-4dcb-9344-5a4c0ebb7141")
 	)
 	(wire
 		(pts
@@ -4142,6 +4152,16 @@
 			(type default)
 		)
 		(uuid "daac5a56-8680-48dd-8207-4238ca8e8223")
+	)
+	(wire
+		(pts
+			(xy -575.31 71.12) (xy -575.31 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6fb267-ef6c-4d59-a205-06a41e68cd49")
 	)
 	(wire
 		(pts
@@ -7374,7 +7394,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at -590.55 74.93 270)
+		(at -596.9 67.31 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7384,7 +7404,7 @@
 		(dnp no)
 		(uuid "54e33f66-def8-4b4d-aecb-7d2bc4d527c2")
 		(property "Reference" "BT1"
-			(at -590.55 70.104 90)
+			(at -596.9 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7394,7 +7414,7 @@
 			)
 		)
 		(property "Value" "3.7 V"
-			(at -590.55 71.882 90)
+			(at -596.9 64.262 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7404,7 +7424,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Scotto:Battery"
-			(at -589.026 74.93 90)
+			(at -595.376 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7415,7 +7435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -589.026 74.93 90)
+			(at -595.376 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7426,7 +7446,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at -590.55 74.93 0)
+			(at -596.9 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7437,7 +7457,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at -590.55 74.93 0)
+			(at -596.9 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7448,7 +7468,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at -590.55 74.93 0)
+			(at -596.9 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7459,7 +7479,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at -590.55 74.93 0)
+			(at -596.9 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7884,7 +7904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
 			(at -590.55 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9841,6 +9861,86 @@
 			(project "WarBoard"
 				(path "/222a5836-0859-4d65-bff6-f9bdf97b6e3a"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Switch")
+		(at -584.2 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e533e848-136a-45e4-affa-030b5f2b61f1")
+		(property "Reference" "SW5"
+			(at -584.2 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at -584.2 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_Shouhan_MSK12C02"
+			(at -584.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -584.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at -584.2 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "355643f8-7a70-4cc9-8a15-28941ab97ade")
+		)
+		(pin "2"
+			(uuid "040b6ed3-25f7-4bff-b839-451138c9ddbe")
+		)
+		(instances
+			(project "WarBoard"
+				(path "/222a5836-0859-4d65-bff6-f9bdf97b6e3a"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
