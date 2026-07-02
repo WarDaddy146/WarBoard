@@ -3720,16 +3720,8 @@
 		(uuid "7880987c-1d0b-488f-99c0-c7b0d458e34e")
 	)
 	(no_connect
-		(at -613.41 111.76)
-		(uuid "a21cf558-ad0c-4110-a004-9e0683cbeb21")
-	)
-	(no_connect
 		(at -450.85 86.36)
 		(uuid "b521d19b-f0d7-40b2-bed1-b7aeacb472ec")
-	)
-	(no_connect
-		(at -497.84 5.08)
-		(uuid "d27ef46a-8aff-458e-8d89-ce497430fc27")
 	)
 	(no_connect
 		(at -450.85 99.06)
@@ -4888,6 +4880,31 @@
 			)
 		)
 	)
+	(global_label "JS"
+		(shape input)
+		(at -497.84 5.08 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 72 72 0 1)
+			)
+			(justify right)
+		)
+		(uuid "62bc006c-4240-4f86-be63-e479f8b191f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -497.84 10.2423 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SW1_B"
 		(shape input)
 		(at -613.41 104.14 180)
@@ -5827,6 +5844,31 @@
 		(uuid "c8d76e84-2261-4b06-835f-e5d35dff4fd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -355.6218 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "JS"
+		(shape input)
+		(at -613.41 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 72 72 0 1)
+			)
+			(justify right)
+		)
+		(uuid "ca006e71-1036-41df-9686-84895c3f515b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -618.5723 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

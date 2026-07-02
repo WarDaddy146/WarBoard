@@ -1,5 +1,4 @@
-*.lck
 .history/
 .mcp-backups/
 _restore_backup_*/
-production/
+*.lck
